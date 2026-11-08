@@ -110,9 +110,6 @@ p{margin:0}
 /* load sequence: one ~1.4 s beat. Words rise, swoosh draws, copy settles, button pops, chips land, bike brakes. */
 .hero h1 .w{display:inline-block;animation:rise-w .7s var(--ease) both;animation-delay:calc(.08s + var(--i) * .06s)}
 @keyframes rise-w{from{transform:translateY(105%)}to{transform:none}}
-.swoosh-word{position:relative;display:inline-block}
-.swoosh{position:absolute;left:-2%;right:-4%;bottom:-.1em;width:106%;height:.28em;overflow:visible}
-.swoosh path{stroke-dasharray:1;stroke-dashoffset:0;animation:draw .55s .55s cubic-bezier(.6,0,.2,1) both}
 @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 .hero .lede{font-size:1.15rem;color:var(--ink-soft);max-width:34ch;animation:fade-up .6s .42s var(--ease) both}
 .hero .lede b{color:var(--navy);font-weight:600}
