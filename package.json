@@ -1,0 +1,21 @@
+{
+  "name": "brl-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Blue Ribbon Logistics landing page: static build for Cloudflare Pages / Netlify / Vercel",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "images": ".venv/bin/python scripts/images.py",
+    "fonts": ".venv/bin/python scripts/fonts.py",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist 4173",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "playwright": "1.55"
+  }
+}

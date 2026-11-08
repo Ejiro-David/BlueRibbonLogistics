@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="30 56 122 84" width="610" height="420"><style>text{font-family:"Barlow Condensed",Impact,sans-serif}</style><rect x="42" y="68" width="98" height="72" rx="9" fill="#F5F9FA" stroke="#D6E3E8" stroke-width="2"/>
+  <rect x="44" y="130" width="94" height="7" rx="3" fill="#F98715"/>
+  <rect x="38" y="60" width="106" height="17" rx="6" fill="#1B4557"/>
+  <line x1="42" y1="79.5" x2="140" y2="79.5" stroke="#F98715" stroke-width="2.5"/>
+  <path d="M33 106 L45 101 L46 124 L36 128 L40 117 Z" fill="#033369"/>
+  <path d="M149 92 L137 95 L138 117 L148 114 L144 104 Z" fill="#033369"/>
+  <path d="M42 99 L140 91 L141 117 L43 125 Z" fill="#035DB1"/>
+  <text x="92" y="117" text-anchor="middle" transform="rotate(-4.6 92 108)" font-family="'Barlow Condensed',Impact,sans-serif" font-weight="800" font-style="italic" font-size="26" fill="#FFFFFF" letter-spacing="1.5">BRL</text></svg>

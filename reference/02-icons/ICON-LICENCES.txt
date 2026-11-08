@@ -1,0 +1,4 @@
+Line icons: Lucide (lucide.dev), ISC licence. Free to use, including commercially.
+WhatsApp glyph: Simple Icons (simpleicons.org), CC0. Use it only to link to your WhatsApp chat,
+and keep it unchanged (WhatsApp brand rules).
+Stroke width set to 1.75 and coloured BRL navy or white.

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="840" height="560">
+  <!-- wheels -->
+  <g class="wheel" id="wr">
+    <circle cx="110" cy="212" r="50" fill="#13313F"/>
+    <circle cx="110" cy="212" r="45" fill="none" stroke="#0A222C" stroke-width="5" stroke-dasharray="7 9"/>
+    <circle cx="110" cy="212" r="34" fill="#E9F1F4"/>
+    <g stroke="#1B4557" stroke-width="3.5" stroke-linecap="round">
+      <line x1="110" y1="180" x2="110" y2="244"/>
+      <line x1="82.3" y1="196" x2="137.7" y2="228"/>
+      <line x1="82.3" y1="228" x2="137.7" y2="196"/>
+    </g>
+    <circle cx="110" cy="212" r="10" fill="#1B4557"/>
+    <circle cx="110" cy="212" r="4" fill="#F98715"/>
+  </g>
+  <g class="wheel" id="wf">
+    <circle cx="322" cy="212" r="50" fill="#13313F"/>
+    <circle cx="322" cy="212" r="45" fill="none" stroke="#0A222C" stroke-width="5" stroke-dasharray="7 9"/>
+    <circle cx="322" cy="212" r="34" fill="#E9F1F4"/>
+    <g stroke="#1B4557" stroke-width="3.5" stroke-linecap="round">
+      <line x1="322" y1="180" x2="322" y2="244"/>
+      <line x1="294.3" y1="196" x2="349.7" y2="228"/>
+      <line x1="294.3" y1="228" x2="349.7" y2="196"/>
+    </g>
+    <circle cx="322" cy="212" r="10" fill="#1B4557"/>
+    <circle cx="322" cy="212" r="4" fill="#F98715"/>
+  </g>
+  <!-- frame, swingarm, chain guard -->
+  <line x1="110" y1="212" x2="212" y2="200" stroke="#1B4557" stroke-width="11" stroke-linecap="round"/>
+  <rect x="128" y="192" width="80" height="14" rx="7" fill="#0F2B38" transform="rotate(-6 168 199)"/>
+  <path d="M290 116 L222 186" stroke="#1B4557" stroke-width="13" stroke-linecap="round"/>
+  <!-- engine -->
+  <path d="M186 168 L246 164 Q256 164 256 175 L252 204 Q250 213 240 213 L196 213 Q186 213 186 203 Z" fill="#9DB0B8"/>
+  <g stroke="#7F949D" stroke-width="3" stroke-linecap="round">
+    <line x1="198" y1="176" x2="244" y2="174"/><line x1="198" y1="186" x2="244" y2="184"/><line x1="198" y1="196" x2="242" y2="194"/>
+  </g>
+  <!-- exhaust -->
+  <path d="M236 206 Q226 228 176 228 L104 226" fill="none" stroke="#C9D5DA" stroke-width="9" stroke-linecap="round"/>
+  <rect x="52" y="214" width="80" height="20" rx="10" fill="#B8C7CD"/>
+  <rect x="48" y="216" width="14" height="16" rx="6" fill="#8EA2AA"/>
+  <circle class="exhaust-tip" cx="50" cy="224" r="1" fill="none"/>
+  <!-- tail -->
+  <path d="M58 154 Q92 138 152 144 L152 160 Q104 158 66 170 Z" fill="#1B4557"/>
+  <rect x="50" y="152" width="14" height="9" rx="4" fill="#F98715"/>
+  <!-- side panel -->
+  <path d="M140 150 L208 150 L200 182 L150 180 Z" fill="#035DB1"/>
+  <!-- rack + box -->
+  <line x1="48" y1="140" x2="146" y2="138" stroke="#1B4557" stroke-width="6" stroke-linecap="round"/>
+  <!-- custom BRL box: white body, navy lid with orange piping, logo-style blue ribbon with white BRL -->
+  <rect x="42" y="68" width="98" height="72" rx="9" fill="#F5F9FA" stroke="#D6E3E8" stroke-width="2"/>
+  <rect x="44" y="130" width="94" height="7" rx="3" fill="#F98715"/>
+  <rect x="38" y="60" width="106" height="17" rx="6" fill="#1B4557"/>
+  <line x1="42" y1="79.5" x2="140" y2="79.5" stroke="#F98715" stroke-width="2.5"/>
+  <path d="M33 106 L45 101 L46 124 L36 128 L40 117 Z" fill="#033369"/>
+  <path d="M149 92 L137 95 L138 117 L148 114 L144 104 Z" fill="#033369"/>
+  <path d="M42 99 L140 91 L141 117 L43 125 Z" fill="#035DB1"/>
+  <text x="92" y="117" text-anchor="middle" transform="rotate(-4.6 92 108)" font-family="'Barlow Condensed',Impact,sans-serif" font-weight="800" font-style="italic" font-size="26" fill="#FFFFFF" letter-spacing="1.5">BRL</text>
+  <!-- seat -->
+  <path d="M118 142 Q118 130 132 130 L214 128 Q226 128 226 140 L222 146 L122 150 Q118 148 118 142 Z" fill="#0F2B38"/>
+  <!-- tank -->
+  <path d="M208 132 Q214 108 252 106 Q282 106 290 122 L282 148 Q246 152 212 150 Z" fill="#035DB1"/>
+  <path d="M222 120 Q246 112 274 116" fill="none" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+  <!-- rider leg -->
+  <path d="M176 126 L242 138" stroke="#0F2B38" stroke-width="27" stroke-linecap="round"/>
+  <path d="M242 138 L234 184" stroke="#0F2B38" stroke-width="22" stroke-linecap="round"/>
+  <ellipse cx="244" cy="192" rx="17" ry="9" fill="#0A222C"/>
+  <!-- front fork + fender -->
+  <line x1="294" y1="118" x2="322" y2="212" stroke="#6F8790" stroke-width="10" stroke-linecap="round"/>
+  <path d="M280 192 Q322 146 366 188" fill="none" stroke="#035DB1" stroke-width="10" stroke-linecap="round"/>
+  <!-- headlight cowl + beam -->
+  <path class="beam" d="M322 112 L420 84 L420 156 L322 126 Z" fill="#FFE9A8" opacity="0"/>
+  <path d="M290 108 Q306 96 320 106 L322 128 Q306 138 292 128 Z" fill="#035DB1"/>
+  <circle cx="313" cy="117" r="8" fill="#FFF6D6" stroke="#E7D49A" stroke-width="2"/>
+  <!-- handlebar, mirror -->
+  <path d="M292 106 L284 86 L262 86" fill="none" stroke="#1B4557" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="286" y1="88" x2="296" y2="64" stroke="#1B4557" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="297" cy="60" rx="7" ry="5" fill="#1B4557"/>
+  <!-- neck -->
+  <rect x="207" y="62" width="16" height="16" rx="5" fill="#5A3825"/>
+  <!-- rider torso: hi-vis vest -->
+  <path d="M162 126 L198 126 L230 88 L218 68 L186 70 L160 108 Z" fill="#F98715" stroke="#F98715" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M165 105 L213 105 M175 89 L225 89" stroke="#FFE3C2" stroke-width="5" stroke-linecap="round"/>
+  <!-- arm -->
+  <path d="M218 80 L242 106 L258 90" fill="none" stroke="#035DB1" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="259" cy="89" r="9" fill="#0F2B38"/>
+  <!-- helmet -->
+  <circle cx="220" cy="44" r="26" fill="#FFFFFF" stroke="#D6E3E8" stroke-width="2"/>
+  <path d="M224 36 Q244 32 246 46 Q247 55 239 57 L224 55 Q219 45 224 36 Z" fill="#1B4557"/>
+  <path d="M230 39 Q238 37 241 43" fill="none" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M197 40 Q203 21 228 18" fill="none" stroke="#035DB1" stroke-width="7" stroke-linecap="round"/>
+</svg>

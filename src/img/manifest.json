@@ -1,0 +1,118 @@
+{
+  "wheel": {
+    "w": 1208,
+    "h": 1208,
+    "files": [
+      {
+        "w": 208,
+        "h": 208,
+        "webp": "wheel-208.webp",
+        "webpBytes": 20586,
+        "avif": "wheel-208.avif",
+        "avifBytes": 11754
+      }
+    ],
+    "margin": 0.001773464786996494
+  },
+  "rider": {
+    "w": 1361,
+    "h": 1044,
+    "files": [
+      {
+        "w": 480,
+        "h": 368,
+        "webp": "rider-480.webp",
+        "webpBytes": 41222,
+        "avif": "rider-480.avif",
+        "avifBytes": 20261
+      },
+      {
+        "w": 720,
+        "h": 552,
+        "webp": "rider-720.webp",
+        "webpBytes": 73872,
+        "avif": "rider-720.avif",
+        "avifBytes": 34625
+      }
+    ],
+    "wheels": [
+      {
+        "c": [
+          0.20735,
+          0.80594
+        ],
+        "d": 0.29096
+      },
+      {
+        "c": [
+          0.85239,
+          0.79722
+        ],
+        "d": 0.2892
+      }
+    ],
+    "exhaust": [
+      0.13005,
+      0.82088
+    ],
+    "headlight": [
+      0.83174,
+      0.4569
+    ],
+    "rearContact": [
+      0.20735,
+      0.99559
+    ],
+    "wheelbase": 0.64504
+  },
+  "parcels": {
+    "w": 1194,
+    "h": 1189,
+    "files": [
+      {
+        "w": 360,
+        "h": 358,
+        "webp": "parcels-360.webp",
+        "webpBytes": 15672,
+        "avif": "parcels-360.avif",
+        "avifBytes": 7688
+      },
+      {
+        "w": 720,
+        "h": 717,
+        "webp": "parcels-720.webp",
+        "webpBytes": 45128,
+        "avif": "parcels-720.avif",
+        "avifBytes": 21084
+      }
+    ]
+  },
+  "logo": {
+    "w": 148,
+    "h": 174,
+    "files": [
+      {
+        "w": 148,
+        "h": 174,
+        "webp": "logo-148.webp",
+        "webpBytes": 9272,
+        "avif": "logo-148.avif",
+        "avifBytes": 6139
+      }
+    ]
+  },
+  "pattern": {
+    "w": 543,
+    "h": 213,
+    "files": [
+      {
+        "w": 543,
+        "h": 213,
+        "webp": "pattern-543.webp",
+        "webpBytes": 20678,
+        "avif": "pattern-543.avif",
+        "avifBytes": 11061
+      }
+    ]
+  }
+}

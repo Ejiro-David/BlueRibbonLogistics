@@ -1,0 +1,11 @@
+:root {
+  /* Blue Ribbon Logistics colours, sampled from the logo and the tip-post template */
+  --brl-navy: #1B4557;        /* headlines, dark sections, the wave */
+  --brl-blue: #035DB1;        /* logo ribbon blue: links, small highlights */
+  --brl-blue-dark: #033369;   /* logo ribbon fold */
+  --brl-orange: #F98715;      /* accent: ONE thing per screen (main button, price, prize) */
+  --brl-pale: #C6DEE6;        /* corner semicircles, soft panels */
+  --brl-white: #FFFFFF;
+  --brl-ink-soft: #4E6B78;     /* secondary text on white */
+  --brl-whatsapp: #25D366;    /* only inside the WhatsApp icon */
+}
